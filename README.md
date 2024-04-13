@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Main {
     private static final HashMap<Character, Integer> romanNumerals = new HashMap<>();
     
-    static {
+  static {
         romanNumerals.put('I', 1);
         romanNumerals.put('V', 5);
         romanNumerals.put('X', 10);
